@@ -17,7 +17,7 @@ Zbiór treningowy obejmował lata 1973-2019. Zbiór testowy lata 2020-2023.
 
 ## Uzyskane Rezultaty
 Model osiągnął następujące wyniki na zbiorze testowym:
-- **R2**: Osiągnięto wynik modelu na poziomie około 0.83.
+- **R2**: Osiągnięto wynik modelu na poziomie około 0.90.
 
 
 ## Potrzebne Pakiety
@@ -29,8 +29,10 @@ Do realizacji projektu niezbędne były następujące pakiety:
 - `keras`
 - `sklearn`
 - `keras-tuner`
+- `pydot`
+
 
 Poniżej znajduje się kod instalacji wymaganych pakietów:
 
 ```bash
-pip install numpy pandas matplotlib tensorflow keras scikit-learn keras-tuner
+pip install numpy pandas matplotlib tensorflow keras scikit-learn keras-tuner pydot
